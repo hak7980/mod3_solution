@@ -1,0 +1,11 @@
+.navbar.navbar-default .container  {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.container section {
+background-color: #808080;
+}
+
