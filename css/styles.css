@@ -1,89 +1,102 @@
-.navbar.navbar-default {
-width: 100%;
+.navbar.navbar-default{
+width:100%;
 background-color: #808080;
-padding-top: 20px;
-border-bottom-style: solid;
-border-bottom: 40px;
-border-top: 40px;
-margin-bottom: 0px;
 border-color: #000000;
-height: 100px;
+height: 60px;
+margin:0px;
 }
 
-.navbar.navbar-default a {
-font-size: 3em;
-color: #000000;
+.navbar-brand h1{
+	padding: 0px;
+	margin:0px;
+	font-size: 1.3em;
 }
 
-h1 {
-	margin-bottom: 40px;
-	margin-top: 10px;
+.container a {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-top: auto;
 }
 
+#collapsable-nav {
+	padding: 0px;
+	margin: 0px;
+	background-color: #808080;
+}
+
+ul {
+	background-color: #808080;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+hr {
+	border-color: #000000;
+	margin: 0px;
+}
+
+
+h2 {
+	padding-bottom: 20px;
+}
 
 ul {
 	list-style-type: none;
 }
 
+@media (min-width: 992px)  {
+	.container section {
+	background-color: #808080;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	}
 
-@media (min-width: 1200px) {
- 
-.container section {
-background-color: #808080;
-margin-right: 20px;
-margin-left:0px;
-margin-bottom: 20px;
-}
+	#chicken{
+	margin-left: -20px;
+	}
 
-#sushi {
-margin-right: -20px;
-margin-bottom: 20px;
-}
+	#sushi {
+	margin-right: -20px;
+	}
+	}
 
-#chicken {
-margin-left: -20px;
-}
-}
-
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
+	@media (min-width: 768px) and (max-width: 991px) {
 
 	.container section {
-background-color: #808080;
-margin-right: 20px;
-margin-left:0px;
-margin-bottom: 20px;
-}
+	background-color: #808080;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	}
 
-#beef {
-margin-left: 0px;
-margin-right: -20px;
-margin-bottom: 20px;
-}
+	#beef {
+	margin-left: 20px;
+	margin-right: -20px;
+	}
 
-#sushi {
-width: 102%;
-margin-left: 0px;
-}
-}
+	#chicken {
+	margin-left: -20px;
+	}
 
-@media (min-width: 768px) and (max-width: 991px) {
+	#sushi {
+	width:105.5%;
+	margin-left: -20px;
+	}
+	}
+
+	@media (max-width: 767px) {
+
+	.container {
+		margin-right: 40px;
+		margin-left: 40px;
+	}
 
 	.container section {
-background-color: #808080;
-margin-bottom: 20px;
-}
-}
-
-
-@media (max-width: 767px) {
-
-.container section {
-background-color: #808080;
-margin-bottom: 20px;
-}
-}
+	background-color: #808080;
+	margin-right: auto;
+		margin-bottom: 20px;
+	}
+	}
 
 
 
