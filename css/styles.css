@@ -1,3 +1,8 @@
+body {
+	font-family: 'Nerko One', cursive;
+	font-color: #000000;
+}
+
 .navbar.navbar-default{
 width:100%;
 background-color: #808080;
@@ -25,24 +30,31 @@ margin:0px;
 	background-color: #808080;
 }
 
-ul {
+#collapsable-nav a, .navbar.navbar-default a, a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  background-color: transparent;
+  border-color: black;
+  border-width: 2px;
+  }
+
+.navbar-header button.navbar-toggle:focus, .navbar-header button.navbar-toggle:focus .icon-bar {
+  border: 1px solid #61122f;
+  border-color: white;
+  background-color: transparent;
+  border-width: 2px;
+  }
+
+
+ul, hr {
 	background-color: #808080;
+	border-color: #000000;
 	padding-left: 0px;
 	margin: 0px;
-}
-
-hr {
-	border-color: #000000;
-	margin: 0px;
-}
-
-
-h2 {
-	padding-bottom: 20px;
-}
-
-ul {
-	list-style-type: none;
 }
 
 @media (min-width: 992px)  {
